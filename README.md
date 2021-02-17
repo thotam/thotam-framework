@@ -27,10 +27,40 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 composer create-project thotam/thotam-framework thotam
 ```
 
+```php
+cd thotam
+```
+
+```php
+composer install
+```
+
+```php
+ren .env.example .env
+```
+
+```php
+php artisan key:generate
+```
+
+```php
+npm install
+```
+
+```php
+npm run dev
+```
+
 ## Publish DataTables assets
 
 ```php
 php artisan vendor:publish --tag=datatables-buttons
+```
+
+## Run Server
+
+```php
+php artisan serve
 ```
 
 ## Learning Laravel
