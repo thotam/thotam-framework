@@ -47,14 +47,16 @@ php artisan key:generate
 npm install
 ```
 
-```php
-npm run dev
-```
-
 ## Publish DataTables assets
 
 ```php
 php artisan vendor:publish --tag=datatables-buttons
+```
+
+## Build Style and JS
+
+```php
+npm run dev
 ```
 
 ## Run Server
