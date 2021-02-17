@@ -1,12 +1,19 @@
 {
-    "name": "laravel/laravel",
+    "name": "thotam/thotam-framework",
+    "description": "Laravel with custom Appwork UI",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thotam",
+            "email": "thanhtamtqno1@gmail.com"
+        }
+    ],
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "thotam"
     ],
-    "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
