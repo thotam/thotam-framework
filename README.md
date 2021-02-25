@@ -36,14 +36,6 @@ composer install
 ```
 
 ```php
-ren .env.example .env
-```
-
-```php
-php artisan key:generate
-```
-
-```php
 npm install
 ```
 
